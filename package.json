@@ -1,0 +1,27 @@
+{
+  "name": "head-replace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "bla": "tsc ./src/init.ts && node ./src/init.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^7.0.5",
+    "typescript": "2.5.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "mocha-typescript": "^1.1.9",
+    "nyc": "^11.2.1",
+    "source-map-support": "^0.4.18",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}
